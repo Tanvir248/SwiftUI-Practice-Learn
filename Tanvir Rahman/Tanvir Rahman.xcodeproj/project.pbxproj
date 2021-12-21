@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5024A5277226E1008F0827 /* Tanvir_RahmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5024A4277226E1008F0827 /* Tanvir_RahmanApp.swift */; };
+		4B5024A7277226E1008F0827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5024A6277226E1008F0827 /* ContentView.swift */; };
+		4B5024A9277226E1008F0827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024A8277226E1008F0827 /* Assets.xcassets */; };
+		4B5024AC277226E1008F0827 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024AB277226E1008F0827 /* Preview Assets.xcassets */; };
+		4B5024B6277226E2008F0827 /* Tanvir_RahmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5024B5277226E2008F0827 /* Tanvir_RahmanTests.swift */; };
+		4B5024C0277226E2008F0827 /* Tanvir_RahmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5024BF277226E2008F0827 /* Tanvir_RahmanUITests.swift */; };
+		4B5024C2277226E2008F0827 /* Tanvir_RahmanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5024C1277226E2008F0827 /* Tanvir_RahmanUITestsLaunchTests.swift */; };
+		4B5024D427723201008F0827 /* Pushster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D327723201008F0827 /* Pushster-Regular.ttf */; };
+		4B5024D527723201008F0827 /* Pushster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D327723201008F0827 /* Pushster-Regular.ttf */; };
+		4B5024D627723201008F0827 /* Pushster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D327723201008F0827 /* Pushster-Regular.ttf */; };
+		4B5024D82772320F008F0827 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D72772320F008F0827 /* Lobster-Regular.ttf */; };
+		4B5024D92772320F008F0827 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D72772320F008F0827 /* Lobster-Regular.ttf */; };
+		4B5024DA2772320F008F0827 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5024D72772320F008F0827 /* Lobster-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5024B2277226E2008F0827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B502499277226E1008F0827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5024A0277226E1008F0827;
+			remoteInfo = "Tanvir Rahman";
+		};
+		4B5024BC277226E2008F0827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B502499277226E1008F0827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5024A0277226E1008F0827;
+			remoteInfo = "Tanvir Rahman";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B45BDEC2772382400919278 /* Tanvir-RahmanUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tanvir-RahmanUITests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4B45BDED277238C800919278 /* Tanvir-Rahman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tanvir-Rahman-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4B5024A1277226E1008F0827 /* Tanvir Rahman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tanvir Rahman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5024A4277226E1008F0827 /* Tanvir_RahmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanvir_RahmanApp.swift; sourceTree = "<group>"; };
+		4B5024A6277226E1008F0827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B5024A8277226E1008F0827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5024AB277226E1008F0827 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B5024B1277226E2008F0827 /* Tanvir RahmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tanvir RahmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5024B5277226E2008F0827 /* Tanvir_RahmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanvir_RahmanTests.swift; sourceTree = "<group>"; };
+		4B5024BB277226E2008F0827 /* Tanvir RahmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tanvir RahmanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5024BF277226E2008F0827 /* Tanvir_RahmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanvir_RahmanUITests.swift; sourceTree = "<group>"; };
+		4B5024C1277226E2008F0827 /* Tanvir_RahmanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanvir_RahmanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B5024D327723201008F0827 /* Pushster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pushster-Regular.ttf"; sourceTree = "<group>"; };
+		4B5024D72772320F008F0827 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B50249E277226E1008F0827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024AE277226E2008F0827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024B8277226E2008F0827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B502498277226E1008F0827 = {
+			isa = PBXGroup;
+			children = (
+				4B5024A3277226E1008F0827 /* Tanvir Rahman */,
+				4B5024B4277226E2008F0827 /* Tanvir RahmanTests */,
+				4B5024BE277226E2008F0827 /* Tanvir RahmanUITests */,
+				4B5024A2277226E1008F0827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5024A2277226E1008F0827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5024A1277226E1008F0827 /* Tanvir Rahman.app */,
+				4B5024B1277226E2008F0827 /* Tanvir RahmanTests.xctest */,
+				4B5024BB277226E2008F0827 /* Tanvir RahmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5024A3277226E1008F0827 /* Tanvir Rahman */ = {
+			isa = PBXGroup;
+			children = (
+				4B45BDED277238C800919278 /* Tanvir-Rahman-Info.plist */,
+				4B5024CE277230A6008F0827 /* fonts */,
+				4B5024A4277226E1008F0827 /* Tanvir_RahmanApp.swift */,
+				4B5024A6277226E1008F0827 /* ContentView.swift */,
+				4B5024A8277226E1008F0827 /* Assets.xcassets */,
+				4B5024AA277226E1008F0827 /* Preview Content */,
+			);
+			path = "Tanvir Rahman";
+			sourceTree = "<group>";
+		};
+		4B5024AA277226E1008F0827 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B5024AB277226E1008F0827 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B5024B4277226E2008F0827 /* Tanvir RahmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B5024B5277226E2008F0827 /* Tanvir_RahmanTests.swift */,
+			);
+			path = "Tanvir RahmanTests";
+			sourceTree = "<group>";
+		};
+		4B5024BE277226E2008F0827 /* Tanvir RahmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B45BDEC2772382400919278 /* Tanvir-RahmanUITests-Info.plist */,
+				4B5024BF277226E2008F0827 /* Tanvir_RahmanUITests.swift */,
+				4B5024C1277226E2008F0827 /* Tanvir_RahmanUITestsLaunchTests.swift */,
+			);
+			path = "Tanvir RahmanUITests";
+			sourceTree = "<group>";
+		};
+		4B5024CE277230A6008F0827 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B5024D72772320F008F0827 /* Lobster-Regular.ttf */,
+				4B5024D327723201008F0827 /* Pushster-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B5024A0277226E1008F0827 /* Tanvir Rahman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5024C5277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir Rahman" */;
+			buildPhases = (
+				4B50249D277226E1008F0827 /* Sources */,
+				4B50249E277226E1008F0827 /* Frameworks */,
+				4B50249F277226E1008F0827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tanvir Rahman";
+			productName = "Tanvir Rahman";
+			productReference = 4B5024A1277226E1008F0827 /* Tanvir Rahman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B5024B0277226E2008F0827 /* Tanvir RahmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5024C8277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir RahmanTests" */;
+			buildPhases = (
+				4B5024AD277226E2008F0827 /* Sources */,
+				4B5024AE277226E2008F0827 /* Frameworks */,
+				4B5024AF277226E2008F0827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5024B3277226E2008F0827 /* PBXTargetDependency */,
+			);
+			name = "Tanvir RahmanTests";
+			productName = "Tanvir RahmanTests";
+			productReference = 4B5024B1277226E2008F0827 /* Tanvir RahmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B5024BA277226E2008F0827 /* Tanvir RahmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5024CB277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir RahmanUITests" */;
+			buildPhases = (
+				4B5024B7277226E2008F0827 /* Sources */,
+				4B5024B8277226E2008F0827 /* Frameworks */,
+				4B5024B9277226E2008F0827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5024BD277226E2008F0827 /* PBXTargetDependency */,
+			);
+			name = "Tanvir RahmanUITests";
+			productName = "Tanvir RahmanUITests";
+			productReference = 4B5024BB277226E2008F0827 /* Tanvir RahmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B502499277226E1008F0827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4B5024A0277226E1008F0827 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4B5024B0277226E2008F0827 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4B5024A0277226E1008F0827;
+					};
+					4B5024BA277226E2008F0827 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4B5024A0277226E1008F0827;
+					};
+				};
+			};
+			buildConfigurationList = 4B50249C277226E1008F0827 /* Build configuration list for PBXProject "Tanvir Rahman" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B502498277226E1008F0827;
+			productRefGroup = 4B5024A2277226E1008F0827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5024A0277226E1008F0827 /* Tanvir Rahman */,
+				4B5024B0277226E2008F0827 /* Tanvir RahmanTests */,
+				4B5024BA277226E2008F0827 /* Tanvir RahmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B50249F277226E1008F0827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024D427723201008F0827 /* Pushster-Regular.ttf in Resources */,
+				4B5024D82772320F008F0827 /* Lobster-Regular.ttf in Resources */,
+				4B5024AC277226E1008F0827 /* Preview Assets.xcassets in Resources */,
+				4B5024A9277226E1008F0827 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024AF277226E2008F0827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024D527723201008F0827 /* Pushster-Regular.ttf in Resources */,
+				4B5024D92772320F008F0827 /* Lobster-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024B9277226E2008F0827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024D627723201008F0827 /* Pushster-Regular.ttf in Resources */,
+				4B5024DA2772320F008F0827 /* Lobster-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B50249D277226E1008F0827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024A7277226E1008F0827 /* ContentView.swift in Sources */,
+				4B5024A5277226E1008F0827 /* Tanvir_RahmanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024AD277226E2008F0827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024B6277226E2008F0827 /* Tanvir_RahmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5024B7277226E2008F0827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5024C0277226E2008F0827 /* Tanvir_RahmanUITests.swift in Sources */,
+				4B5024C2277226E2008F0827 /* Tanvir_RahmanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5024B3277226E2008F0827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5024A0277226E1008F0827 /* Tanvir Rahman */;
+			targetProxy = 4B5024B2277226E2008F0827 /* PBXContainerItemProxy */;
+		};
+		4B5024BD277226E2008F0827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5024A0277226E1008F0827 /* Tanvir Rahman */;
+			targetProxy = 4B5024BC277226E2008F0827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B5024C3277226E2008F0827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B5024C4277226E2008F0827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B5024C6277226E2008F0827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tanvir Rahman/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tanvir-Rahman-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-Rahman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B5024C7277226E2008F0827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tanvir Rahman/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tanvir-Rahman-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-Rahman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B5024C9277226E2008F0827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-RahmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tanvir Rahman.app/Tanvir Rahman";
+			};
+			name = Debug;
+		};
+		4B5024CA277226E2008F0827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-RahmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tanvir Rahman.app/Tanvir Rahman";
+			};
+			name = Release;
+		};
+		4B5024CC277226E2008F0827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tanvir-RahmanUITests-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-RahmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tanvir Rahman";
+			};
+			name = Debug;
+		};
+		4B5024CD277226E2008F0827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tanvir-RahmanUITests-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparta-i.imRich.Tanvir-RahmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tanvir Rahman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B50249C277226E1008F0827 /* Build configuration list for PBXProject "Tanvir Rahman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5024C3277226E2008F0827 /* Debug */,
+				4B5024C4277226E2008F0827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5024C5277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir Rahman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5024C6277226E2008F0827 /* Debug */,
+				4B5024C7277226E2008F0827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5024C8277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir RahmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5024C9277226E2008F0827 /* Debug */,
+				4B5024CA277226E2008F0827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5024CB277226E2008F0827 /* Build configuration list for PBXNativeTarget "Tanvir RahmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5024CC277226E2008F0827 /* Debug */,
+				4B5024CD277226E2008F0827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B502499277226E1008F0827 /* Project object */;
+}
